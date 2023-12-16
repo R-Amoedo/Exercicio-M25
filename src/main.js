@@ -16,3 +16,9 @@ let alunos = [
         'nota': 8
     }
 ];
+
+const alunosMelhorNota = alunos.filter((elemento, indice) => {
+    return elemento.nota >= 6;
+})
+
+console.log(alunosMelhorNota);
